@@ -1,3 +1,9 @@
+import CartWidget from "./CartWidget"; 
+// import * as React from 'react';
+// import Badge from '@mui/material/Badge';
+// import MailIcon from '@mui/icons-material/Mail';
+
+
 const NavBar = () => {
 
 return (
@@ -16,14 +22,23 @@ return (
     <li class="nav-item">
       <a class="nav-link" href='#'>SERVICIOS</a>
     </li>
-  <li class="nav-item">
+    <li class="nav-item">
       <a class="nav-link" href="#">REGISTRATE</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">SING IN</a>
     </li>
+{/*   
+     <li>  
+    <Badge badgeContent={4} color="primary">
+      <MailIcon color="action" />
+    </Badge>
+    </li> */}
     </ul>
+
   </nav>
+  
+  
   
      </header>     
  

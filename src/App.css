@@ -15,3 +15,10 @@ nav ul li a{
   font-size: 1rem;
   margin: 25px;
 }
+
+p{
+  font-family: cursive;
+  color: rgb(214, 139, 25);
+ padding-top: 0%;
+ margin-right: 3px;
+}
