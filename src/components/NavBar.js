@@ -1,7 +1,7 @@
-import CartWidget from "./CartWidget"; 
-// import * as React from 'react';
-// import Badge from '@mui/material/Badge';
-// import MailIcon from '@mui/icons-material/Mail';
+ import CartWidget from "./components/CartWidget"; 
+import * as React from 'react';
+import Badge from '@mui/material/Badge';
+import MailIcon from '@mui/icons-material/Mail';
 
 
 const NavBar = () => {
@@ -28,17 +28,13 @@ return (
     <li class="nav-item">
       <a class="nav-link" href="#">SING IN</a>
     </li>
-{/*   
-     <li>  
-    <Badge badgeContent={4} color="primary">
-      <MailIcon color="action" />
-    </Badge>
-    </li> */}
-    </ul>
+    
+      </ul>
+
+    <Badge>CartWidget </Badge> 
 
   </nav>
-  
-  
+   
   
      </header>     
  

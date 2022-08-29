@@ -1,11 +1,11 @@
 
-
-
 const CartWidget = () => {
 
     return ( 
-    <i class="local_grocery_stor material-icons">add</i>
-    
+
+   <Badge badgeContent={4} color="primary">
+      <MailIcon color="action" />
+   </Badge>
     
 
     );

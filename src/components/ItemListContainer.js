@@ -1,5 +1,5 @@
-
-const Greeting = (props) => {
+ 
+ const Greeting = (props) => {
  return (
     <>
     <h2>Bienvenidos</h2> 
