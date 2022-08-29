@@ -1,4 +1,4 @@
-
+import React from "react";
 const CartWidget = () => {
 
     return ( 
@@ -7,9 +7,7 @@ const CartWidget = () => {
       <MailIcon color="action" />
    </Badge>
     
-
     );
     }
-
  
     export default CartWidget;
